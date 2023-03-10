@@ -91,23 +91,23 @@ const config = {
               },
             ],
           },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "TBD",
-              },
-              {
-                label: "Discord",
-                href: "TBD",
-              },
-              {
-                label: "Twitter",
-                href: "TBD",
-              },
-            ],
-          },
+          // {
+          //   title: "Community",
+          //   items: [
+          //     {
+          //       label: "Stack Overflow",
+          //       href: "TBD",
+          //     },
+          //     {
+          //       label: "Discord",
+          //       href: "TBD",
+          //     },
+          //     {
+          //       label: "Twitter",
+          //       href: "TBD",
+          //     },
+          //   ],
+          // },
           {
             title: "More",
             items: [
