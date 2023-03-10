@@ -1,0 +1,14 @@
+{
+    "name": "docs",
+    "image" : "mcr.microsoft.com/vscode/devcontainers/typescript-node:18-bullseye",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "redhat.vscode-yaml",
+                "DavidAnson.vscode-markdownlint"
+            ]
+        }
+    },
+    "postCreateCommand": "yarn install",
+    "remoteUser": "vscode"
+}
