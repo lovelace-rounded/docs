@@ -1,0 +1,10 @@
+theme: just-the-docs
+title: Lovelace Rounded
+
+search_enabled: true
+heading_anchors: true
+
+footer_content: "Copyright &copy; 2023 Lovelace Rounded."
+aux_links:
+  "GitHub":
+    - "//github.com/lovelace-rounded/ui"

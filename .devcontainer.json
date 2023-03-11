@@ -1,6 +1,6 @@
 {
     "name": "docs",
-    "image" : "mcr.microsoft.com/vscode/devcontainers/typescript-node:18-bullseye",
+    "image" : "mcr.microsoft.com/vscode/devcontainers/jekyll:bullseye",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -9,6 +9,6 @@
             ]
         }
     },
-    "postCreateCommand": "yarn install",
+    // "postCreateCommand": "yarn install",
     "remoteUser": "vscode"
 }
