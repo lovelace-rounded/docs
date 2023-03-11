@@ -1,0 +1,17 @@
+{
+    "name": "docs",
+    "image" : "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "redhat.vscode-yaml",
+                "DavidAnson.vscode-markdownlint",
+                "unifiedjs.vscode-mdx"
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}

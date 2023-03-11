@@ -1,0 +1,28 @@
+{
+  "name": "lovelace-rounded.github.io",
+  "version": "1.0.0",
+  "description": "Lovelace rounded documentation",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovelace-rounded/lovelace-rounded.github.io.git"
+  },
+  "homepage": "https://github.com/lovelace-rounded/lovelace-rounded.github.io#readme",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^13.2.4",
+    "nextra": "^2.2.19",
+    "nextra-theme-docs": "^2.2.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "typescript": "^4.9.5"
+  }
+}
